@@ -1,0 +1,263 @@
+*{
+  box-sizing: border-box;
+}
+*:focus{
+  outline: 2px dotted #FF7500;
+  outline-offset: 4px;
+}
+body{
+  font-family: 'Roboto','Arial', 'Sans serif';
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+.site-header{
+  background-color: #fff;
+  border-top: 5px solid #FF7500;
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+.header-link img{
+  display: block;
+}
+.container{
+  max-width: 1140px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo-link{
+  transition: opacity 0.4s ease;
+}
+.logo-link:hover{
+  opacity: 0.8;
+}
+.logo-link:active{
+  opacity: 0.6;
+}
+.nav{
+  font-family: 'Roboto 500';
+  display: flex;
+  margin: 0;
+}
+.list{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-item{
+  margin:auto;
+}
+.item-link{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  margin-right: 32px;
+}
+.link{
+  transition: color 0.4s ease,
+  opacity 0.4s ease ;
+}
+.link:hover{
+  color: #FF7500;
+}
+.link:active{
+  opacity: 0.6;
+}
+.main-link{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+  background: #FF7500;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 24px;
+  transition: opacity 0.4s ease;
+}
+.main-link:hover{
+  opacity: 0.8;
+}
+.main-link:active{
+  opacity: 0.6;
+}
+
+/* main */
+.hero{
+  background-color: #252420;
+  color: #fff;
+}
+.hero-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+h2{
+  font-family: "Roboto Condensed", "Roboto", "Arial","Sans-serif";
+}
+.hero-img{
+  border-radius: 8px;
+}
+
+
+
+.feature{
+  background-color: #fff;
+  color: #000000;
+}
+.feature-container{
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
+.feature-item{
+  width: 340px;
+  margin-right: 40px;
+}
+.feature-item:last-child{
+  margin-right: 0;
+}
+.feature-item-img{
+  background-color: rgba(255, 117, 0, 0.2);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.feature-list{
+  margin-top: 0;
+}
+.feature-title{
+  font-family: 'Roboto Condensed',"Roboto","Arial","Sans-serif";
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 72px;
+}
+.feature-titles{
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.feature-text{
+  margin-top: 0;
+}
+.content{
+  width: 390px;
+}
+.hero-title{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.hero-text{
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+.orange-line{
+  width: 80px;
+  height: 3px;
+  background-color: #FF7500;
+  margin: 0;
+  margin-bottom: 40px;
+  border: none;
+}
+.action{
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+.great-action{
+  padding: 75px 92px 64px 64px;
+}
+.action-text{
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+strong{
+  color: #FF7500;
+}
+.action-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px 0;
+  background-color: #252420;
+  border-radius: 12px;
+  color: #fff;
+}
+.action-container img{
+  border-radius: 12px;
+}
+
+
+/* footer */
+
+footer{
+  background-color: #F8F8F8;
+}
+.footer-container{
+  padding: 56px 0;
+}
+.connection{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+
+.social-list{
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+.footer-item{
+  font-weight: 400;
+  list-style: none;
+}
+.footer-link{
+  text-decoration: none;
+  color: #252420;
+  transition: color 0.4s ease;
+}
+.footer-link:hover{
+  opacity: ;
+}
+.footer-link img{
+  display: block;
+}
+.footer-line{
+  background: rgba(37, 36, 32, 0.5);
+  height: 2px;
+  margin-top: 0;
+  margin-bottom: 64px;
+}
+.connection img{
+  display: block;
+}
+.footer-list{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+.footer-lists{
+  width: 224px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 68px;
+  padding-left: 0;
+}
