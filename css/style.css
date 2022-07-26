@@ -29,7 +29,8 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .logo-link{
   transition: opacity 0.4s ease;
