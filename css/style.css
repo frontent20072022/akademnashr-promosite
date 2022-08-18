@@ -55,7 +55,8 @@ body{
   display: block;
 }
 .nav{
-  font-family: 'Roboto 500';
+  font-family: 'Roboto';
+  font-weight: 500;
   display: flex;
   margin: 0;
 }
